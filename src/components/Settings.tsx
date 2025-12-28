@@ -32,7 +32,7 @@ const Settings: React.FC<SettingsProps> = ({
 }) => {
   const t = settingsTranslations[language];
   return (
-    <div className="absolute top-full right-0 mt-2 bg-white rounded-lg shadow-lg border border-gray-200 p-4 w-64 z-50">
+    <div className="absolute top-full right-0 mt-2 bg-white rounded-lg shadow-lg border border-gray-200 p-4 w-full max-w-xs md:max-w-sm z-50">
       {/* Language Setting */}
       <div className="mb-4">
         <label className="block text-sm font-medium text-gray-700 mb-2">{t.language}</label>
