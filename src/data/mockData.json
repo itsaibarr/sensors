@@ -1,0 +1,87 @@
+{
+  "userName": "Sarah",
+  "location": "Home - Living Room",
+  "timestamp": "12:25 PM GMT+5 (Local: 12:25 PM)",
+  "batteryLevel": 85,
+  "currentState": {
+    "score": 72,
+    "updatedMinutes": 3,
+    "description": "This score represents the overall condition based on heart rate, activity, and environmental factors. Green indicates stable, yellow attentive, red overloaded."
+  },
+  "activities": [
+    {
+      "id": 1,
+      "time": "12:20 PM",
+      "label": "Calm reading activity",
+      "stressLevel": "low",
+      "description": "Child engaged in quiet reading with steady heart rate and no environmental triggers."
+    },
+    {
+      "id": 2,
+      "time": "11:45 AM",
+      "label": "Moderate activity, sound reaction",
+      "stressLevel": "moderate",
+      "description": "Brief increase in activity level detected, possibly due to nearby conversation. Heart rate elevated slightly."
+    },
+    {
+      "id": 3,
+      "time": "11:00 AM",
+      "label": "Rest period",
+      "stressLevel": "low",
+      "description": "Child resting quietly with stable vital signs."
+    }
+  ],
+  "hourData": [
+    { "time": "12:00", "stress": 35 },
+    { "time": "12:05", "stress": 38 },
+    { "time": "12:10", "stress": 42 },
+    { "time": "12:15", "stress": 40 },
+    { "time": "12:20", "stress": 45 },
+    { "time": "12:25", "stress": 40 }
+  ],
+  "dayData": [
+    { "time": "8:00", "stress": 25 },
+    { "time": "10:00", "stress": 30 },
+    { "time": "12:00", "stress": 45 },
+    { "time": "14:00", "stress": 20 },
+    { "time": "16:00", "stress": 35 },
+    { "time": "18:00", "stress": 40 }
+  ],
+  "weekData": [
+    { "time": "Mon", "stress": 32 },
+    { "time": "Tue", "stress": 28 },
+    { "time": "Wed", "stress": 45 },
+    { "time": "Thu", "stress": 38 },
+    { "time": "Fri", "stress": 42 },
+    { "time": "Sat", "stress": 35 },
+    { "time": "Sun", "stress": 30 }
+  ],
+  "recommendations": [
+    {
+      "id": 1,
+      "text": "A calm walk in the garden helped reduce stress earlier today.",
+      "explanation": "Based on observed patterns, outdoor activities with minimal stimulation have consistently lowered stress levels by 20-30%.",
+      "confidence": 85
+    },
+    {
+      "id": 2,
+      "text": "Short rest periods appear beneficial before transitions.",
+      "explanation": "Data shows that 5-10 minute breaks before changing activities correlate with lower stress spikes.",
+      "confidence": 78
+    },
+    {
+      "id": 3,
+      "text": "Noise sensitivity detected — consider quieter environments.",
+      "explanation": "Environmental sensors have noted increased heart rate responses to sounds above 60dB in the last week.",
+      "confidence": 92
+    }
+  ],
+  "alerts": [
+    {
+      "id": 1,
+      "message": "Sustained moderate stress levels detected over the last hour. Consider a calming activity.",
+      "type": "info",
+      "timestamp": "12:15 PM"
+    }
+  ]
+}
